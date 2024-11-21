@@ -39,7 +39,7 @@ input.onGesture(Gesture.Shake, () => {
 });
 ```
 
-Create an if statement for the condition `if randomNumber = 2`. If **randomNumber** is 2, display the string 'Yes'
+Create an if statement for the condition `if randomNumber = 2`. If **randomNumber** is 2, display the string 'of course'
 
 
 ```blocks
@@ -49,7 +49,7 @@ input.onGesture(Gesture.Shake, () =>  {
     basic.clearScreen();
     let randomNumber = randint(0, 3);
     if (randomNumber == 2) {
-        basic.showString("YES");
+        basic.showString("of course");
     }
 });
 
@@ -65,14 +65,14 @@ input.onGesture(Gesture.Shake, () => {
     basic.clearScreen()
     let randomNumber = randint(0, 3)
     if (randomNumber == 2) {
-        basic.showString("YES")
+        basic.showString("of course")
     } else if (randomNumber == 1) {
         basic.showString("NO")
     }
 })
 ```
 
-If **randomNumber** is not 2 or 1, it must be 0. This is the else condition. If **randomNumber** is 0, display the string 'I don't know'
+If **randomNumber** is not 2 or 1, it must be 0. This is the else condition. If **randomNumber** is 0, display the string 'I do not understand'
 
 ```blocks
 basic.showString("ASK A QUESTION")
@@ -81,11 +81,11 @@ input.onGesture(Gesture.Shake, () =>  {
     basic.clearScreen()
     let randomNumber = randint(0, 3)
     if (randomNumber == 2) {
-        basic.showString("YES")
+        basic.showString("of course")
     } else if (randomNumber == 1) {
         basic.showString("NO")
     } else {
-        basic.showString("I DON'T KNOW")
+        basic.showString("sorry i do not understand")
 
     }
 
@@ -103,11 +103,11 @@ input.onGesture(Gesture.Shake, () =>  {
     basic.clearScreen()
     let randomNumber = randint(0, 3)
     if (randomNumber == 2) {
-        basic.showString("YES")
+        basic.showString("of course")
     } else if (randomNumber == 1) {
         basic.showString("NO")
     } else {
-        basic.showString("I DON'T KNOW")
+        basic.showString("I do not understand")
     }
     basic.showNumber(8)
 
